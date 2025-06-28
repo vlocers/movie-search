@@ -1,12 +1,34 @@
-# React + Vite
+# Movie Search React App 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **React** ve **Tailwind CSS** kullanılarak yapılmış basit bir film arama uygulamasıdır.  
+The Movie Database (TMDB) API kullanılarak, kullanıcıların film araması yapmasına ve sonuçları listelemesine olanak sağlar.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Özellikler
 
-## Expanding the ESLint configuration
+- Canlı arama önerileri (ilk 5 sonuç gösterilir)
+- "Tüm sonuçları gör" seçeneği ile daha fazla film görüntüleme
+- Film detay kartları (poster, isim, çıkış tarihi, puan)
+- Responsive ve şık tasarım (Tailwind CSS)
+- Temiz ve anlaşılır React bileşen yapısı
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Ekran Görüntüleri
+
+### Arama Sonuçları
+![Arama Sonuçları](./screenshots/anasayfa.png)
+
+### Film Kartları
+![Film Kartları](./screenshots/aramasonuclari.png)
+
+---
+
+## Kurulum ve Çalıştırma
+
+1. Depoyu klonla:
+
+```bash
+git clone https://github.com/kullaniciadi/movie-react.git
+cd movie-react
