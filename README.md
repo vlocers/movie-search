@@ -2,6 +2,7 @@
 
 Bu proje, **React** ve **Tailwind CSS** kullanılarak yapılmış basit bir film arama uygulamasıdır.  
 The Movie Database (TMDB) API kullanılarak, kullanıcıların film araması yapmasına ve sonuçları listelemesine olanak sağlar.
+Arama inputu dahil hiçbir yerde hazır paket kullanılmamıştır hepsi manual olarak yapılmıştır.
 
 ---
 
